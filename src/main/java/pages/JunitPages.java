@@ -44,6 +44,6 @@ public class JunitPages {
     }
 
     public SelenideElement junitName() {
-        return $("[data-test-selector='release-card']").as("название селектора");
+        return $("[data-test-selector='release-card']").as("название junit версии после поискового запроса");
     }
 }
